@@ -1,0 +1,176 @@
+@font-face {
+    font-family: edrtfgyhu;
+    src: url(./Fonts/Shabnam-FD.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: edrtfgyhu;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+
+.General-Box {
+    width: 1216px;
+    margin: 50px auto 0;
+}
+
+.Top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+    
+}
+
+.section-title-icon {
+    width: 22px;
+    height: 22px;
+    color: rgb(57, 73, 171);
+}
+
+.hale-bikom-text-bar{
+    color: #017c99;
+}
+
+.row {
+    display: flex;
+    gap: 24px;
+}
+
+.product {
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 24px;
+    border-radius: 13px;
+}
+
+.product-image {
+    width: 100%;
+    display: block;
+}
+
+.product-name {
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 14px;
+    height: 68px;
+}
+
+.product-link {
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+    
+
+}
+
+.product-offer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.product-percent {
+    background-color: rgb(227, 242, 253);
+    color: rgb(25, 118, 210);
+    font-weight: bold;
+    padding: 2px 4px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.product-offer-price {
+    text-decoration: line-through;
+    color: rgb(84, 110, 122);
+}
+
+.product-wrapper {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.product-price-number {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-price-unite {
+    font-size: 14px;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.product-rating-number {
+    font-size: 14px;
+    color: rgb(84, 110, 122);
+}
+
+.product-rating-icon {
+    width: 18px;
+    height: 18px;
+    color: #f1c21b;
+}
+
+
+
+.product {
+    transition: all 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2);
+}
+
+.product-rating-number-one{
+    color: #f1c21b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
